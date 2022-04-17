@@ -25,7 +25,7 @@ O git é um sistema de controle de versoes compartilhadas. Com ele, é mais fác
 
 4- O que é um scrum Product Owner? 
 
-O Product Owner, no scrum, é um facilitador da equipe junto ao cliente, além de priorizar as atividades que estao no Product Backlog da equipe.
+O Product Owner, no scrum, é um facilitador da equipe junto ao cliente, além de priorizar as atividades que estao no Product Backlog da equipe. Organiza as atividades do product backlog juntamente com os desenvolvedores, pode remover e adicionar atividades também. Caso ocorram alguns impedimentos no projeto, como no caso do cliente "sumir", também pode assumir uma postura de cobrá-lo.
 
 
 
@@ -98,25 +98,25 @@ O git é um sistema de controle de versao de arquivos, em que se pode fazer alte
 
 15- Quais os dois verbos http que podemos utiizar para realizar um update? Explique a diferença entre eles.
 
-PUT e POST
-PUT atuliza todos os dados do recurso, e cria algo
-POST também pode modificar arquivos. Usando o POST, o navegador envia os dados do formulário no corpo da requisição e não na URL.
+GET e POST
+GET manda a mensagem ao servidor, porém no corpo da url.
+POST também pode modificar arquivos. Usando o POST, o navegador envia os dados do formulário no corpo da requisição e não na URL. É mais seguro no caso de senhas e informaçoes confidenciais
 
 
 
 16- Qual o status code que pode ser usado na criação de um novo usuário?
 
-POST request
+No caso do GET e POST request, podem ser criadas requisiçoes com respostas de 200 (operaçao bem sucedida) e 300 (redirecionamento)
 
 
 
 17- Quais são os três status code que modem ser utilizados para realizar o delete? 
 
+200 (bem sucedido)
+
 202 (aceito)
 
-204 (nao-aceito)
-
-200 (ok) 
+400 (erro)
 
 
 
@@ -153,7 +153,7 @@ C:\ProgramData\MySQL\MySQL Server 5.6\data\mydatabase\data-recovery
 
 21- Qual comando usa-se para extração de arquivos em MongoDB durante a instalação? 
 
-Em MAC e Linux a extraçao é feita pelo comando 'tar"
+---dbpath"\pastadestino\db"
 
 
 
